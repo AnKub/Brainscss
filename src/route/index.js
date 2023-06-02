@@ -20,10 +20,7 @@ router.get('/indextask', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   res.render('indextask', {
-    layout: indextask,
-    page: {
-      title: indextask,
-    },
+    layout: 'indextask',
   })
   //                  ↑↑ сюди вводимо JSON дані
 })
