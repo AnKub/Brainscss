@@ -16,6 +16,17 @@ router.get('/', function (req, res) {
   //                  ↑↑ сюди вводимо JSON дані
 })
 
+router.get('/indextask', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  res.render('indextask', {
+    layout: indextask,
+    page: {
+      title: indextask,
+    },
+  })
+  //                  ↑↑ сюди вводимо JSON дані
+})
 // ================================================================
 
 // Підключаємо роутер до бек-енду

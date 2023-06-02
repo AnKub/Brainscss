@@ -1,0 +1,11 @@
+html {
+  max-width: 720px;
+}
+
+body {
+  color: #030303;
+}
+
+* {
+  color: rgb(248, 248, 248);
+}
