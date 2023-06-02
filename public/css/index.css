@@ -3,5 +3,59 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #424141;
+}
+
+* {
+  color: rgb(150, 147, 247);
+}
+#user {
+  color: rgb(232, 35, 167);
+}
+
+.box {
+  color: pink;
+}
+section > p {
+  color: rgb(231, 132, 231);
+}
+
+li:first-child {
+  color: aqua;
+}
+
+li:last-child {
+  color: rgb(219, 250, 250);
+}
+.mu:last-of-type {
+  color: rgb(168, 238, 168);
+}
+.m:nth-child(1) {
+  color: rgb(253, 164, 164);
+}
+.top li[btn] {
+  color: rgb(255, 150, 216);
+}
+.top input[type~='number'] {
+  background: rgb(25, 25, 25);
+  width: auto;
+}
+.top input::placeholder {
+  color: rgb(11, 224, 196);
+}
+
+.card-dark {
+  background: #424141;
+}
+.card-dark li {
+  color: #9cf8f8;
+}
+.card-dark li:last-child {
+  color: #e8efef;
+}
+button[class|='btn'] {
+  background: rgb(65, 65, 62);
+}
+a[class^='btn'] {
+  background: rgb(67, 67, 65);
 }
