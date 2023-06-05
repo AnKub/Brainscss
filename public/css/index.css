@@ -59,3 +59,17 @@ button[class|='btn'] {
 a[class^='btn'] {
   background: rgb(67, 67, 65);
 }
+/* new pert of selectors */
+#test:target {
+  color: red;
+}
+.link:link {
+  color: yellowgreen;
+}
+
+.link:hover {
+  color: rgb(235, 5, 116);
+}
+.act:active {
+  font-size: 24px;
+}
