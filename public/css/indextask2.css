@@ -6,11 +6,11 @@
   );
 }
 
-.lesson-four-task-one:hover {
+.lesson-four-task-one button:hover {
   background-color: rgb(181, 250, 7);
   color: red;
 }
-.lesson-four-task-two h1:hover {
+.lesson-four-task-two a:hover ~ h1 {
   background-color: rgb(64, 250, 7);
 }
 .lesson-four-task-three a:visited {
@@ -26,7 +26,7 @@
   background-color: rgb(231, 160, 66);
   color: orange;
 }
-.lesson-four-task-seven #target:target ~ a {
+#target:target {
   background-color: green;
   color: white;
 }
