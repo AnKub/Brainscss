@@ -73,3 +73,17 @@ a[class^='btn'] {
 .act:active {
   font-size: 24px;
 }
+input {
+  background-color: #583a3a;
+}
+input:focus {
+  background-color: #069999;
+}
+
+.cardt:focus-within {
+  background-color: rgb(66, 81, 247);
+}
+.cardt:lang(en) > input {
+  background-color: #060101;
+  color: white;
+}
