@@ -87,3 +87,48 @@ input:focus {
   background-color: #060101;
   color: white;
 }
+button {
+  background-color: #204f11;
+}
+button:enabled {
+  background-color: #069999;
+}
+button:disabled {
+  background-color: #3f4343;
+  color: #e8efef;
+}
+.inp:read-write {
+  background-color: blueviolet;
+  color: white;
+}
+.enp:read-only {
+  background-color: rgb(16, 15, 17);
+  color: white;
+}
+input[type='checkbox']:checked ~ span {
+  background-color: #204f11;
+}
+.valid:valid {
+  background-color: rgb(255, 255, 0);
+}
+.valid:invalid {
+  background-color: rgb(242, 27, 27);
+}
+.valid:optional {
+  background-color: rgba(27, 242, 149, 0.551);
+}
+.number:focus {
+  background-color: #060101;
+  color: #9cf8f8;
+}
+.number:out-of-range {
+  background-color: #7f09096f;
+  color: #013b3b;
+}
+.number:in-range {
+  background-color: #18ea1f6f;
+  color: #011313;
+}
+input:placeholder-shown ~ span {
+  background-color: #3f4343;
+}

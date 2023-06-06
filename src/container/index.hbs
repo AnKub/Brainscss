@@ -113,7 +113,62 @@
         <input type="text">
     </P>
 </div>
-<div id="test" class="card p-5 m-5">
+
+<div class="card p-5 m-5">
     <p>:enabled обирає тег ФОРМИ який доступни та не заблакований для взаємодії</p>
-    <button> </button>
+    <button class="badge badge-pill m-3"> Just for a click </button>
+    <button class="badge badge-pill m-3" disabled> Just for a click </button>
+    <p>В якості протилежного варіанту існує селектор вимкненего тегу :disabled він обирає тег що є недоступним та
+        заблакованим для використання</p>
+</div>
+<div class="card p-5 m-5">
+    <p>Селектор редагованого тегу- обирає тег форми, в який можливо вводити свої значення :read-write</p>
+    <input class="inp">
+    <p>Селектор нередагованого тегу це селектоор що обирає тег форми в який ми неможемо вводити значення :read-only</p>
+    <input class="enp" readonly>
+</div>
+<div class="card p-5 m-5">
+    <p>Селектор відміченого тегу, це селектор який вибирає тег форми, який був відмічени й чи обраний користувачем
+        :checked</p>
+    <div class="mt-5">
+        <div>
+            <input type="checkbox" checked>
+            <span>First</span>
+        </div>
+        <div>
+            <input type="checkbox">
+            <span>Second</span>
+        </div>
+    </div>
+</div>
+
+<div class="card-dark p-3 m-3">
+    <p>Селектор валідного тегу це селектор який вибирає тег поля форми, який пройшов валідацію :valid</p>
+    <input type="email" required class="valid">
+    <p>Селектор не валідного тегу :invalid</p>
+    <input type="email" required class="invalid">
+</div>
+<div class="card-dark p-3 m-3">
+    <p>Селектор необов'кового тег- це селектор що вибирає тег поля форми, який є необовязковим та має атрибут :optional
+    </p>
+    <input type="email" class="valid">
+
+</div>
+<div class="card p-3 m-3">
+    <p>Селектор за межі діапазону тегу- це селектор , що обирає ntg input значення якого виводить за межі максимального
+        та мінімального значення :out-of-range</p>
+    <div class="mt-5">
+        <input type="number" min="5" max="25" class="number">
+    </div>
+    <div class=" card mt-5">
+        <p>Селектор в межах діапазону тегу - це селектор який обирає инпут тег, який знаходить в межах вказаного
+            діапозону мінімального та максимального значення :in-range</p>
+        <input type="number" min="5" max="25" class="number">
+    </div>
+</div>
+<div class="card p-3 m-3">
+    <p>Селктор наявності плейсхолдера у тегу , він обирає інпут яякий має атрибу плайсхолдер :placeholder-show</p>
+    <input type="email" class="valid" placeholder="test">
+    <span>Hold the place, so long how u can</span>
+
 </div>
