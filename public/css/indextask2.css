@@ -1,0 +1,94 @@
+.card [class*='card-header'] {
+  background: linear-gradient(
+    270deg,
+    rgba(22, 48, 48, 0.72) 0%,
+    rgb(242, 176, 176) 100%
+  );
+}
+
+.lesson-four-task-one:hover {
+  background-color: rgb(181, 250, 7);
+  color: red;
+}
+.lesson-four-task-two h1:hover {
+  background-color: rgb(64, 250, 7);
+}
+.lesson-four-task-three a:visited {
+  color: yellow;
+}
+#sidebar a:link {
+  color: rgb(255, 85, 0);
+}
+.lesson-four-task-five button[class^='btn']:active {
+  background-color: blue;
+}
+.lesson-four-task-six button[class|='btn']:focus {
+  background-color: rgb(231, 160, 66);
+  color: orange;
+}
+.lesson-four-task-seven #target:target ~ a {
+  background-color: green;
+  color: white;
+}
+
+input[type='checkbox']:checked ~ div {
+  background-color: rgb(66, 8, 243);
+  color: white;
+}
+.lesson-four-task-nine p:lang(uk) {
+  color: rgb(17, 13, 238);
+}
+.lesson-four-task-ten input:enabled {
+  background-color: #c7f901;
+  color: red;
+}
+
+/* вище закінчився блок з перших 10 завдань */
+
+.lesson-four-task-eleven input:disabled {
+  background-color: #b0ef05;
+}
+
+.lesson-four-task-twelve input:read-write {
+  background-color: yellow;
+}
+
+.lesson-four-task-thirteen input:read-only {
+  background-color: yellow;
+}
+
+.lesson-four-task-fourteen input:valid {
+  background-color: rgb(0, 255, 13);
+}
+.lesson-four-task-fourteen input:invalid {
+  background-color: rgb(242, 27, 27);
+}
+
+.lesson-four-task-fifteen textarea:optional {
+  background-color: rgba(248, 4, 4, 0.551);
+}
+.lesson-four-task-sixteen input:out-of-range {
+  color: red;
+}
+.lesson-four-task-seventeen input:in-range {
+  color: red;
+}
+
+.lesson-four-task-eighteen input:placeholder-shown {
+  background-color: #d5170a;
+}
+
+.lesson-four-task-nineteen button:focus-within {
+  background-color: rgb(217, 213, 21);
+  color: white;
+  border-radius: 10% / 50%;
+  font-size: 24px;
+}
+/* вище просто експерементував, сподіваюсь  не буде як помилка */
+.lesson-four-task-twenty input:invalid {
+  background-color: rgba(242, 27, 27, 0.522);
+}
+.lesson-four-task-twenty input:valid {
+  background-color: rgba(23, 223, 56, 0.597);
+}
+/* просто додав доп, щоб приємніше було */
