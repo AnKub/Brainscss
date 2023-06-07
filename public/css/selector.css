@@ -1,0 +1,134 @@
+html {
+  max-width: 720px;
+}
+
+body {
+  background: #424141;
+}
+
+* {
+  color: rgb(150, 147, 247);
+}
+#user {
+  color: rgb(232, 35, 167);
+}
+
+.box {
+  color: pink;
+}
+section > p {
+  color: rgb(231, 132, 231);
+}
+
+li:first-child {
+  color: aqua;
+}
+
+li:last-child {
+  color: rgb(219, 250, 250);
+}
+.mu:last-of-type {
+  color: rgb(168, 238, 168);
+}
+.m:nth-child(1) {
+  color: rgb(253, 164, 164);
+}
+.top li[btn] {
+  color: rgb(255, 150, 216);
+}
+.top input[type~='number'] {
+  background: rgb(25, 25, 25);
+  width: auto;
+}
+.top input::placeholder {
+  color: rgb(11, 224, 196);
+}
+
+.card-dark {
+  background: #424141;
+}
+.card-dark li {
+  color: #9cf8f8;
+}
+.card-dark li:last-child {
+  color: #e8efef;
+}
+button[class|='btn'] {
+  background: rgb(65, 65, 62);
+}
+a[class^='btn'] {
+  background: rgb(67, 67, 65);
+}
+/* new pert of selectors */
+#test:target {
+  color: red;
+}
+.link:link {
+  color: yellowgreen;
+}
+
+.link:hover {
+  color: rgb(235, 5, 116);
+}
+.act:active {
+  font-size: 24px;
+}
+input {
+  background-color: #583a3a;
+}
+input:focus {
+  background-color: #069999;
+}
+
+.cardt:focus-within {
+  background-color: rgb(66, 81, 247);
+}
+.cardt:lang(en) > input {
+  background-color: #060101;
+  color: white;
+}
+button {
+  background-color: #204f11;
+}
+button:enabled {
+  background-color: #069999;
+}
+button:disabled {
+  background-color: #3f4343;
+  color: #e8efef;
+}
+.inp:read-write {
+  background-color: blueviolet;
+  color: white;
+}
+.enp:read-only {
+  background-color: rgb(16, 15, 17);
+  color: white;
+}
+input[type='checkbox']:checked ~ span {
+  background-color: #204f11;
+}
+.valid:valid {
+  background-color: rgb(255, 255, 0);
+}
+.valid:invalid {
+  background-color: rgb(242, 27, 27);
+}
+.valid:optional {
+  background-color: rgba(27, 242, 149, 0.551);
+}
+.number:focus {
+  background-color: #060101;
+  color: #9cf8f8;
+}
+.number:out-of-range {
+  background-color: #7f09096f;
+  color: #013b3b;
+}
+.number:in-range {
+  background-color: #18ea1f6f;
+  color: #011313;
+}
+input:placeholder-shown ~ span {
+  background-color: #3f4343;
+}
