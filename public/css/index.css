@@ -1,0 +1,59 @@
+.card {
+  border-radius: 30px;
+  margin-bottom: 40px;
+  box-shadow: 15px 15px 2px 1px rgba(56, 56, 58, 0.63);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    325deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(1, 30, 34, 1) 42%,
+    rgba(0, 245, 255, 0.9416141456582633) 81%
+  );
+}
+#title {
+  border-radius: 30px;
+  background: rgba(3, 28, 57, 0.751) 100%;
+  color: rgb(255, 255, 255);
+  box-shadow: none;
+  text-transform: uppercase;
+}
+
+.card > p {
+  box-shadow: 2px 4px 2px 2px rgba(19, 39, 32, 0.433);
+  color: rgba(19, 39, 32, 0.741);
+  border-radius: 30px;
+  background-color: rgba(127, 255, 212, 0.433);
+  padding-left: 10px;
+  margin: 15px 10px;
+}
+.teg {
+  color: aquamarine;
+  -webkit-text-fill-color: blue;
+  -webkit-text-stroke: 0.5px rgb(241, 129, 9);
+}
+.teg:focus,
+.teg:hover {
+  -webkit-text-fill-color: rgb(81, 0, 255);
+  -webkit-text-stroke: 1px rgb(218, 241, 9);
+  direction: rtl;
+}
+#test {
+  color: initial;
+  -webkit-text-fill-color: initial;
+  -webkit-text-stroke: initial;
+}
+#gg {
+  writing-mode: vertical-rl;
+}
+#gh {
+  writing-mode: vertical-lr;
+}
+#tt {
+  text-transform: capitalize;
+}
+#text {
+  text-decoration: underline dotted rgb(158, 233, 250);
+}
+#text:hover {
+  text-decoration: line-through wavy rgb(232, 18, 3);
+}
