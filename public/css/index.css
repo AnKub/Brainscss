@@ -1,40 +1,42 @@
 .card {
+  font-family: 'Fira Sans', sans-serif;
+  letter-spacing: 2px;
   border-radius: 30px;
   margin-bottom: 40px;
-  box-shadow: 15px 15px 2px 1px rgba(56, 56, 58, 0.63);
-  background: rgb(2, 0, 36);
+  box-shadow: 15px 15px 2px 1px rgba(24, 25, 18, 0.772);
+  background: rgb(25, 0, 89);
   background: linear-gradient(
-    325deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(1, 30, 34, 1) 42%,
-    rgba(0, 245, 255, 0.9416141456582633) 81%
+    90deg,
+    rgba(18, 0, 64, 0.9836309523809523) 16%,
+    rgba(89, 60, 18, 0.9640231092436975) 50%,
+    rgba(1, 79, 77, 0.969625350140056) 67%
   );
+  color: rgba(155, 241, 238, 0.741);
 }
 #title {
   border-radius: 30px;
-  background: rgba(3, 28, 57, 0.751) 100%;
+  background: rgba(187, 131, 10, 0.412) 16%;
   color: rgb(255, 255, 255);
   box-shadow: none;
   text-transform: uppercase;
 }
 
 .card > p {
-  box-shadow: 2px 4px 2px 2px rgba(19, 39, 32, 0.433);
-  color: rgba(19, 39, 32, 0.741);
+  color: rgba(155, 241, 238, 0.741);
   border-radius: 30px;
-  background-color: rgba(127, 255, 212, 0.433);
+  background-color: rgba(89, 60, 18, 0.9640231092436975) 50%;
   padding-left: 10px;
   margin: 15px 10px;
 }
 .teg {
   color: aquamarine;
-  -webkit-text-fill-color: blue;
-  -webkit-text-stroke: 0.5px rgb(241, 129, 9);
+  -webkit-text-fill-color: rgb(236, 236, 240);
+  -webkit-text-stroke: 0.5px rgb(10, 9, 8);
 }
 .teg:focus,
 .teg:hover {
-  -webkit-text-fill-color: rgb(81, 0, 255);
-  -webkit-text-stroke: 1px rgb(218, 241, 9);
+  -webkit-text-fill-color: rgb(8, 7, 12);
+  -webkit-text-stroke: 0.5px rgb(14, 5, 74);
   direction: rtl;
 }
 #test {
@@ -56,4 +58,9 @@
 }
 #text:hover {
   text-decoration: line-through wavy rgb(232, 18, 3);
+}
+
+* {
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Noto Sans Bassa Vah', sans-serif;
 }
