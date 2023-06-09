@@ -2,29 +2,41 @@
   font-family: 'Fira Sans', sans-serif;
   letter-spacing: 2px;
   border-radius: 30px;
+  border-style: hidden;
   margin-bottom: 40px;
-  box-shadow: 15px 15px 2px 1px rgba(24, 25, 18, 0.772);
+  box-shadow: 10px 15px 30px 1px rgba(24, 25, 18, 0.772);
   background: rgb(25, 0, 89);
   background: linear-gradient(
     90deg,
-    rgba(18, 0, 64, 0.9836309523809523) 16%,
-    rgba(89, 60, 18, 0.9640231092436975) 50%,
-    rgba(1, 79, 77, 0.969625350140056) 67%
+    rgba(18, 0, 64, 0.43) 16%,
+    rgba(30, 112, 121, 0.737) 50%,
+    rgba(1, 79, 76, 0.789) 67%
   );
   color: rgba(155, 241, 238, 0.741);
 }
-#title {
+#title::before {
   border-radius: 30px;
-  background: rgba(187, 131, 10, 0.412) 16%;
+  background: rgba(126, 3, 89, 0.412) 16%;
   color: rgb(255, 255, 255);
   box-shadow: none;
   text-transform: uppercase;
+  margin: auto;
+  position: absolute;
 }
+#title:hover {
+  border-radius: 50px;
+  background: rgba(176, 14, 128, 0.412) 16%;
+  color: rgb(255, 255, 255);
+  box-shadow: none;
+  box-shadow: 10px 15px 30px 1px;
 
-.card > p {
+  margin-left: 80px;
+  transition: 1s 0.5s;
+}
+.card ~ p {
   color: rgba(155, 241, 238, 0.741);
   border-radius: 30px;
-  background-color: rgba(89, 60, 18, 0.9640231092436975) 50%;
+  background-color: rgba(89, 59, 18, 0.813) 50%;
   padding-left: 10px;
   margin: 15px 10px;
 }
@@ -63,4 +75,19 @@
 * {
   font-family: 'Fira Sans', sans-serif;
   font-family: 'Noto Sans Bassa Vah', sans-serif;
+}
+#dote1 {
+  text-emphasis-style: dot;
+}
+#dote2 {
+  text-emphasis-style: circle;
+}
+#dote3 {
+  text-emphasis-style: double-circle;
+}
+#dote4 {
+  text-emphasis-style: triangle;
+}
+#dote5 {
+  text-emphasis-style: sesame;
 }
