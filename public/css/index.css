@@ -33,12 +33,20 @@
   margin-left: 80px;
   transition: 1s 0.5s;
 }
-.card ~ p {
+.card ~ p::before {
   color: rgba(155, 241, 238, 0.741);
   border-radius: 30px;
   background-color: rgba(89, 59, 18, 0.813) 50%;
   padding-left: 10px;
   margin: 15px 10px;
+}
+.card ~ p::after {
+  color: rgba(155, 241, 238, 0.741);
+  border-radius: 30px;
+  background-color: rgba(238, 145, 15, 0.528) 50%;
+  padding-right: 10px;
+  margin: 15px 10px;
+  transition: 2s 0.5s;
 }
 .teg {
   color: aquamarine;
@@ -90,4 +98,13 @@
 }
 #dote5 {
   text-emphasis-style: sesame;
+}
+.hhh {
+  display: block;
+}
+.hhline {
+  display: inline;
+}
+.hhlibl {
+  display: inline-block;
 }
