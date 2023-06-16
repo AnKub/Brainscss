@@ -1,20 +1,31 @@
 .card {
   font-family: 'Fira Sans', sans-serif;
   letter-spacing: 2px;
-  border-radius: 30px;
-  border-style: hidden;
   margin-bottom: 40px;
   box-shadow: 10px 15px 30px 1px rgba(24, 25, 18, 0.772);
-  background: rgb(25, 0, 89);
+  background: rgb(18, 0, 64);
   background: linear-gradient(
-    90deg,
-    rgba(18, 0, 64, 0.43) 16%,
-    rgba(30, 112, 121, 0.737) 50%,
-    rgba(1, 79, 76, 0.789) 67%
+    140deg,
+    rgba(0, 0, 0, 0.984) 16%,
+    rgba(68, 5, 58, 0.964) 50%,
+    rgba(79, 1, 35, 0.872) 67%
   );
   color: rgba(155, 241, 238, 0.741);
+  border-radius: 50%;
+  max-width: 960px;
 }
-#title::before {
+
+.card:nth-child(3n + 1) {
+  background: rgb(18, 0, 64);
+  background: linear-gradient(
+    140deg,
+    rgba(0, 0, 0, 0.666) 16%,
+    rgba(68, 5, 58, 0.964) 50%,
+    rgba(168, 3, 74, 0.872) 67%
+  );
+}
+
+#title:before {
   border-radius: 30px;
   background: rgba(126, 3, 89, 0.412) 16%;
   color: rgb(255, 255, 255);
@@ -25,7 +36,7 @@
 }
 #title:hover {
   border-radius: 50px;
-  background: rgba(176, 14, 128, 0.412) 16%;
+  background: rgba(21, 88, 96, 0.746) 16%;
   color: rgb(255, 255, 255);
   box-shadow: none;
   box-shadow: 10px 15px 30px 1px;
