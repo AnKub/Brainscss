@@ -2,7 +2,8 @@
   font-family: 'Fira Sans', sans-serif;
   letter-spacing: 2px;
   margin-bottom: 40px;
-  box-shadow: 10px 15px 30px 1px rgba(24, 25, 18, 0.772);
+  padding: 40px;
+  box-shadow: 10px 15px 30px 1px rgba(246, 247, 243, 0.772);
   background: rgb(18, 0, 64);
   background: linear-gradient(
     140deg,
@@ -11,18 +12,110 @@
     rgba(79, 1, 35, 0.872) 67%
   );
   color: rgba(155, 241, 238, 0.741);
-  border-radius: 50%;
-  max-width: 960px;
+  max-width: 100%;
+  position: fixed;
 }
 
 .card:nth-child(3n + 1) {
   background: rgb(18, 0, 64);
   background: linear-gradient(
-    140deg,
-    rgba(0, 0, 0, 0.666) 16%,
+    250deg,
+    rgba(0, 0, 0, 0.984) 16%,
     rgba(68, 5, 58, 0.964) 50%,
-    rgba(168, 3, 74, 0.872) 67%
+    rgba(79, 1, 35, 0.872) 67%
   );
+}
+.header {
+  min-height: 400px;
+  box-shadow: 10px 15px 30px 1px rgba(239, 241, 227, 0.772);
+  background: rgb(18, 0, 64);
+  background: linear-gradient(
+    140deg,
+    rgba(0, 0, 0, 0.984) 16%,
+    rgba(68, 5, 58, 0.964) 50%,
+    rgba(79, 1, 35, 0.872) 67%
+  );
+  color: rgba(155, 241, 238, 0.741);
+  max-width: auto;
+  position: fixed;
+}
+.bb {
+  font-size: 120px;
+  font-weight: 700;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/04/13/Surrealism-Landscape-Painting-Colorful-Graphics-67085926-2-580x387.png);
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  opacity: 0.3;
+}
+.bb:hover {
+  text-shadow: 5px 2px 50px rgb(93, 169, 169);
+  padding-right: 30px;
+  transition: 0.2s;
+  opacity: 1;
+}
+
+/* Спосіб що регламентує випадаюче меню */
+.mainmenubtn {
+  color: white;
+  border: none;
+  cursor: pointer;
+
+  -webkit-text-shadow: 2px 2px 2px #ecd2d2;
+  -moz-text-shadow: 2px 2px 2px #dbcfcf;
+  text-shadow: 1px 1px 2px rgb(236, 228, 229);
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.mainmenubtn:hover {
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.dropdown {
+  display: flexbox;
+  text-shadow: 1px 1px 2px rgb(236, 228, 229);
+  font-size: 18px;
+  letter-spacing: 3px;
+  z-index: 1;
+  margin-bottom: -25px;
+  width: 100vw;
+}
+.dropdown-child {
+  display: none;
+  max-width: 100%;
+  text-align: center;
+}
+
+.dropdown-child a {
+  padding-top: 2px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  transition: 2s;
+  margin-left: 50px;
+}
+.dropdown-child a:hover {
+  -webkit-text-shadow: 2px 2px 2px #62d7f5;
+  -moz-text-shadow: 2px 2px 2px #4fc2f3;
+  text-shadow: 1px 1px 2px rgb(39, 237, 244);
+  color: rgb(133, 208, 242);
+  transition: 0.05s;
+  letter-spacing: 4px;
+}
+
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+/* закінчення блоку із випадаючим меню */
+
+li:hover {
+  text-shadow: 1px 1px 2px rgb(236, 228, 229);
+  font-size: 18px;
 }
 
 #title:before {
@@ -36,7 +129,7 @@
 }
 #title:hover {
   border-radius: 50px;
-  background: rgba(21, 88, 96, 0.746) 16%;
+  background: rgba(12, 23, 25, 0.2) 16%;
   color: rgb(255, 255, 255);
   box-shadow: none;
   box-shadow: 10px 15px 30px 1px;
