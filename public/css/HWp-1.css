@@ -1,0 +1,111 @@
+.task_1 h1 {
+  color: green;
+}
+.task_1 p {
+  background: red;
+}
+.task_1 button {
+  border: 1px dashed #000;
+}
+/* task2 */
+.task_2 h1 {
+  direction: rtl;
+}
+.task_2 {
+  text-align: right;
+}
+.task_2 button {
+  text-transform: uppercase;
+}
+/* task3 */
+.task_3 h1 {
+  writing-mode: vertical-lr;
+}
+.task_3 pre {
+  tab-size: 4;
+}
+.task_3 button {
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+/* task4 */
+.task_4 h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+.task_4 p {
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+/* task-5 */
+.task_5 div {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+.task_5 button {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: content-box;
+}
+.task_5 input {
+  min-width: 150px;
+  min-height: 45px;
+  max-width: 300px;
+  max-height: 60px;
+  background-color: grey;
+}
+.task_5 p {
+  display: none;
+}
+/* task6 */
+.task_6 h1 {
+  border: double rgb(10, 96, 225);
+  border-width: thin medium thick 10px;
+}
+.task_6 div {
+  border: 3px dashed rgb(225, 10, 10);
+}
+.task_6 button {
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px #888888;
+}
+/* task7 */
+.task_7 button {
+  box-shadow: 2px 6px 10px #666666;
+  line-height: 2;
+}
+.task_7 strong {
+  display: inline-block;
+  cursor: wait;
+}
+/* task8 */
+.task_8 div {
+  opacity: 0;
+}
+.task_8 p {
+  max-height: 70px;
+  overflow: scroll;
+}
+.task_8 h1 {
+  max-height: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* task9 */
+
+.task_9 h1 {
+  white-space: nowrap;
+  word-spacing: 30px;
+}
+.task_9 div {
+  white-space: pre-wrap;
+}
+.task_9 p {
+  white-space: pre-line;
+}
+.task_9 textarea {
+  overflow: hidden;
+}
