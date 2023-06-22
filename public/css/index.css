@@ -3,17 +3,18 @@
   letter-spacing: 2px;
   margin-bottom: 40px;
   padding: 40px;
-  box-shadow: 10px 15px 30px 1px rgba(246, 247, 243, 0.772);
+  box-shadow: 10px 15px 30px 1px rgba(130, 248, 250, 0.772);
   background: rgb(18, 0, 64);
   background: linear-gradient(
     140deg,
     rgba(0, 0, 0, 0.984) 16%,
-    rgba(68, 5, 58, 0.964) 50%,
-    rgba(79, 1, 35, 0.872) 67%
+    rgba(32, 28, 31, 0.964) 50%,
+    rgba(60, 1, 27, 0.943) 67%
   );
   color: rgba(155, 241, 238, 0.741);
   max-width: 100%;
   position: fixed;
+  border-radius: 10%;
 }
 
 .card:nth-child(3n + 1) {
@@ -21,8 +22,8 @@
   background: linear-gradient(
     250deg,
     rgba(0, 0, 0, 0.984) 16%,
-    rgba(68, 5, 58, 0.964) 50%,
-    rgba(79, 1, 35, 0.872) 67%
+    rgba(29, 1, 24, 0.964) 50%,
+    rgba(79, 1, 1, 0.872) 67%
   );
 }
 .header {
@@ -32,7 +33,7 @@
   background: linear-gradient(
     140deg,
     rgba(0, 0, 0, 0.984) 16%,
-    rgba(68, 5, 58, 0.964) 50%,
+    rgba(34, 1, 29, 0.964) 50%,
     rgba(79, 1, 35, 0.872) 67%
   );
   color: rgba(155, 241, 238, 0.741);
@@ -211,4 +212,13 @@ li:hover {
 }
 .hhlibl {
   display: inline-block;
+}
+#BG {
+  background: url(https://i.pinimg.com/originals/95/7b/de/957bdea80ffb2b87d429a4f05e42e6a2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(1.5rem);
+  border-radius: 10%;
+  padding: 50px;
 }
