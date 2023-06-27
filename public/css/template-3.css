@@ -186,7 +186,7 @@
 }
 .form_action {
   padding: var(--space-m) var(--space-xm);
-  color: var(--weight-text)
+  color: var(--weight-text);
   font-size: var(--size-d);
   text-decoration: none;
   background-color: #ffffff;
