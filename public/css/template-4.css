@@ -1,0 +1,230 @@
+:root {
+  --space-m: 12px;
+  --space-xm: 16px;
+  --space-l: 24px;
+
+  --size-s: 14px;
+  --size-d: 16px;
+  --size-l: 20px;
+  --color_title: #343a40;
+
+  --space-b: 36px;
+  --weight-title: 500;
+  --weight-text: 400;
+}
+
+/* ================= */
+.page {
+  background: #ffffff;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.page_content {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* ================ */
+.header {
+  padding: var(--space-l) 0;
+  border-bottom: 1px solid #343a407e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 16px;
+  padding: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  background-color: #563d7c;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav_inline {
+  gap: var(--space-l);
+}
+
+.nav_vertical {
+  gap: var(--space-xm);
+  flex-direction: column;
+}
+
+.nav_link {
+  color: var(--color_title);
+  font-size: var(--size-d);
+  text-decoration: none;
+  line-height: 100%;
+}
+.nav_link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.footer {
+  padding: var(--space-l) 0;
+  display: flex;
+  border-top: 1px solid #343a407e;
+  justify-content: space-between;
+}
+.footer_copyright {
+  font-size: var(--size-s);
+  color: #dee2e6;
+  display: block;
+  margin-top: var(--space-m);
+}
+.footer_title {
+  font-size: var(--size-l);
+  font-weight: 600;
+  color: var(--color_title);
+  display: block;
+  margin-bottom: var(--space-l);
+}
+
+/* вище знаходиться хедер та футер */
+.main {
+  display: flex;
+  align-items: center;
+  gap: var(--space-b);
+  padding: var(--space-b);
+}
+.main_image {
+  height: 500px;
+  width: 500px;
+  border-radius: 12px;
+}
+.main_content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-l);
+}
+.main_title {
+  font-size: 36px;
+  color: var(--color_title);
+  font-weight: var(--weight-title);
+  line-height: 120%;
+  letter-spacing: -0.8px;
+}
+.main_text {
+  font-size: 16px;
+  color: var(--color_title);
+  font-weight: var(--weight-text);
+  line-height: 170%;
+}
+
+.card_but {
+  padding: var(--space-m) var(--space-xm);
+  color: #ffffff;
+  font-size: var(--size-d);
+  text-decoration: none;
+  background-color: rgb(76, 78, 81);
+  border-radius: 12px;
+  width: calc(var(--space-m) * 10);
+}
+.card_but:hover {
+  background-color: #362056;
+  transform: scale(1.02);
+  transition: transform 0.5s;
+  color: #ffffff;
+}
+
+/* зверху частина що 
+согласовує відображення верхнього блоку */
+
+.featured {
+  display: flex;
+  gap: var(--space-b);
+  padding: var(--space-b);
+  border-bottom: 1px solid #343a407e;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: var(--space-l);
+  flex-basis: 35%;
+}
+.card_image {
+  height: 64px;
+  width: 64px;
+  border-radius: 20%;
+}
+.card_title {
+  font-size: 32px;
+  font-weight: var(--weight-title);
+  color: var(--color_title);
+}
+.card_text {
+  font-weight: var(--weight-text);
+  font-size: var(--size-d);
+  color: #343a40;
+  min-height: 108px;
+  min-width: 288px;
+  line-height: 1.2;
+}
+.card_button {
+  padding: var(--space-m) var(--space-xm);
+  color: rgb(3, 102, 241);
+  font-size: var(--size-d);
+  text-decoration: none;
+}
+.card_button:hover {
+  opacity: 0.7;
+}
+/* вище представлений блок із картками */
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #563d7c;
+  padding: var(--space-l);
+  border-radius: 12px;
+}
+.action_content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-m);
+  min-width: 240px;
+  min-height: 81px;
+}
+
+.action_title {
+  font-size: 24px;
+  font-weight: var(--weight-title);
+  color: #ffffff;
+}
+.action_button {
+  padding: var(--space-m) var(--space-xm);
+  color: var(--weight-text);
+  font-size: var(--size-l);
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: var(--color_title);
+}
+
+.action_button:hover {
+  background-color: #362056;
+  transform: scale(1.02);
+  transition: transform 0.5s;
+  color: #ffffff;
+  letter-spacing: 5px;
+  box-shadow: 2px 2px 2px 0px rgba(230, 230, 239);
+}
