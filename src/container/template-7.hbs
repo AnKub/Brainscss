@@ -1,0 +1,71 @@
+<header class="header">
+    {{#with header}}
+    <div>
+        {{>logo7}}
+    </div>
+    <nav class="header_nav">
+        <div class=" header_nav_right">
+            {{>nav77 list=header}}
+        </div>
+    </nav>
+    {{/with}}
+</header>
+{{!-- secondline --}}
+<div class="header_second">
+    <div>
+        <span class="logo_second">Ad</span>
+        <p class="text_second_line">{{header.ad.text}} : {{header.ad.url}}</p>
+    </div>
+    <p>Users online:{{header.userOnline}}</p>
+</div>
+
+{{!-- centrall card first--}}
+
+<main class="main">
+    {{#with hero}}
+    <div class="hero">
+        <h1 class="hero_title">{{title}}</h1>
+        <p class="hero_text">{{description}}</p>
+        <button url="{{button.url}}" class="form_button">{{button.text}}</button>
+    </div>
+    {{/with}}
+</main>
+
+{{!-- centrall card second--}}
+<section>
+    {{#with about}}
+    <div class="hero2">
+        <h1 class="hero_title2">{{heading}}</h1>
+        <p class="hero_text2">{{info}}</p>
+    </div>
+    {{/with}}
+</section>
+
+{{!-- part with small cards --}}
+<section>
+    <div class="down_cards">
+        <h2>Our Articles</h2>
+        <button class="b">View more</button>
+    </div>
+
+    <div class="articles">
+        {{#each articles}}
+        {{>cardblog7 data=this}}
+        {{/each}}
+    </div>
+</section>
+
+{{!-- footer look down --}}
+
+
+<footer class="footer">
+    {{#with footer}}
+    <div class="f">
+        {{>logo7}}
+        <p class="footer_copyright">Copyright 2023-2024</p>
+    </div>
+    <div class="footer_title">
+        {{>nav7}}
+    </div>
+    {{/with}}
+</footer>
