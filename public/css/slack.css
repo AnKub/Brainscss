@@ -292,6 +292,9 @@ body {
   }
   .nextFeatures_grid_4 {
     display: grid;
+    width: 70%;
+    margin-left: 400px;
+    position: right;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: var(--spacing-3);
