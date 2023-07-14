@@ -43,41 +43,41 @@
                         class="icon nav-button__icon"></span>
                     <span class="text text--light">Products</span>
                 </a>
-                {{!-- forexample --}}
-                {{!-- <div class=" relative click">
-                    <div class="field field--select">
-                        <span class="text text-light">Choose...</span>
-                    </div>
-                    <select class="field__select" name="" id="">
-                        <option value="Cucumber">Cucumber</option>
-                        <option value="Mooncake">Mooncake</option>
-                        <option value="Raccoon">Raccoon</option>
-                        <option value="Humster">Humster</option>
-                        <option value="Wombat">Wombat</option>
-                    </select>
-                </div> --}}
             </nav>
         </aside>
 
         <header class="header">
             <div class="layout header__content text--small">
                 <div class="header__search relative">
-                    <div></div>
+
                     <input type="text" placeholder="Search" class="text field field--header click">
                     <span class="icon header__icon-search "
                         style="background-image: url('/css/svg/nav/search.svg')"></span>
                     <span class="icon icon--header-settings icon--color-blue icon--button click"
                         style="background-image: url('/css/svg/nav/searchset.svg')"></span>
-                    {{!-- <span class="icon icon--header-settings icon--color-yellow icon--button click"
-                        style="background-image: url('/css/svg/nav/head1.svg')"></span>
-                    <span class="icon icon--header-settings icon--color-blue icon--button click"
-                        style="background-image: url('/css/svg/nav/head2.svg')"></span>
-                    <span class="icon icon--header-settings icon--color-yellow icon--button click"
-                        style="background-image: url('/css/svg/nav/head3.svg')"></span> --}}
                 </div>
 
+                {{!-- part with other icons end of line --}}
+
+                <div class="header__search2 relative">
+                    <div>
+                        <span class="icon icon--header-sett icon--color-yellow icon--button click"
+                            style="background-image: url('/css/svg/nav/head1.svg')"></span>
+                    </div>
+                    <div>
+                        <span class="icon icon--header-sett icon--color-blue icon--button click"
+                            style="background-image: url('/css/svg/nav/head2.svg')"></span>
+                    </div>
+                    <div>
+                        <span class="icon icon--header-sett icon--color-yellow icon--button click"
+                            style="background-image: url('/css/svg/nav/head3.svg')"></span>
+                    </div>
+                </div>
             </div>
         </header>
+
+        {{!-- part with two block card (first-sections + second-sections) --}}
+
         <main class="main">
             <div class="layout">
                 <section class="box analytic__block">
@@ -95,14 +95,14 @@
                         </div>
 
                     </div>
-                    {{!--
+
                     <div class="analytic analytic--double analytic--purp">
                         <span class="icon analytic__button icon--button icon--color-purp  click"
                             style="background-image: url('/css/svg/nav/order2.svg')"></span>
 
                         <div class="relative vertical vertical--small">
                             <div class="analytic__title text text--light">$500 </div>
-                            <div class=" text text--small text--lighter">money </div>
+                            <div class=" text text--small text--lighter">Middle price </div>
 
                             <span class="icon analytic__arrow"
                                 style="background-image: url('/css/svg/nav/arrow.svg')"></span>
@@ -113,8 +113,10 @@
                         <span class="icon analytic__button icon--button icon--color-blue  click"
                             style="background-image: url('/css/svg/nav/order1-3.svg')"></span>
 
-                        <div class="analytic__content vertical vertical--small">
-                            <div class="analytic__title">$961 </div>
+                        <div class="relative vertical vertical--small">
+                            <div class="analytic__title text text--light">$235 </div>
+                            <div class=" text text--small text--lighter">Small price </div>
+
                         </div>
 
                     </div>
@@ -122,13 +124,147 @@
                         <span class="icon analytic__button icon--button icon--color-yellow  click"
                             style="background-image: url('/css/svg/nav/order4.svg')"></span>
 
-                        <div class="analytic__content vertical vertical--small">
-                            <div class="analytic__title">$961 </div>
+                        <div class="relative vertical vertical--small">
+                            <div class="analytic__title text">$20 </div>
+                            <div class=" text text--small text--lighter">Just for fun </div>
+
                         </div>
-                    </div> --}}
-
-
+                    </div>
                 </section>
+
+                {{!-- Part with second cards --}}
+
+
+                <section class="box analytic__block2">
+                    <div class="analytic2 analytic--double analytic--white">
+                        <div class="analytic__title text ">Purchase list </div>
+                        <hr class="divider">
+
+                        <div class="analytic__part vertical vertical--big">
+
+                            <div class="analytic__title2 text">ID437661
+                                <div class=" text text--line text--bold">May 11, 2023, 14:21</div>
+                            </div>
+                            <div class="analytic__title2 text">AirOn ProCam
+                                <div class=" text text--line text--bold">7/8 USB Type-C </div>
+                            </div>
+                            <div class="analytic__title2 text">$132.32 EUR
+                                <div class=" text text--line text--bold">Not paid</div>
+                            </div>
+                            <div class="analytic__title2 text">Customer
+                                <div class=" text text--line text--bold"> robin@com.de</div>
+                            </div>
+                        </div>
+
+                        <hr class="divider">
+
+                        <div class="analytic__part vertical vertical--big">
+                            <div class="analytic__title2 text">ID437661
+                                <div class=" text text--line text--bold"> May 11, 2023, 14:21</div>
+                            </div>
+                            <div class="analytic__title2 text">PHILIPS Essential
+                                <div class=" text text--line text--bold">HD9200/90</div>
+                            </div>
+                            <div class="analytic__title2 text">543 USD
+                                <div class=" text text--line text--bold">Pay by Stripe </div>
+                            </div>
+                            <div class="analytic__title2 text">Customer
+                                <div class=" text text--line text--bold">dima@com.ua</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class=" analytic2 analytic--double analytic--white">
+                        <div class="analytic__title text ">Payment </div>
+                        <hr class="divider">
+                        {{!-- section with radio --}}
+                        <fieldset class="fieldset text text--lighter">
+                            <legend class="analytic__title2">How would you like to pay?</legend>
+
+                            <div>
+                                <input type="radio" id="#" name="drone" value="huey" checked>
+                                <label class="analytic__title2" for="huey">Credit card</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="#" name="drone" value="dewey">
+                                <label class="analytic__title2 text text--lighter" for="dewey">Debit cart</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="#" name="drone" value="louie">
+                                <label class="analytic__title2 text text--lighter" for="louie">PayPal</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="#" name="drone" value="louie">
+                                <label class="analytic__title2 text text--lighter" for="louie">Soul</label>
+                            </div>
+                        </fieldset>
+
+                        {{!-- section with inputs --}}
+                        <div class="relative vertical vertical--small analytic__part2 fieldset">
+                            <div>
+                                <label for="name" class="form__label analytic__title2 text">Name on card</label>
+                                <input type="text" class="form__input" id="name" placeholder="Card" required="" />
+                            </div>
+                            <div>
+                                <label for="name" class="form__label analytic__title2 text">Namber of card</label>
+                                <input type="number" class="form__input" id="name" placeholder="Number" required="" />
+                            </div>
+                            <div>
+                                <label for="name" class="form__label analytic__title2 text">Expiration</label>
+                                <input type="text" class="form__input" id="name" placeholder="..." required="" />
+                            </div>
+                            <div>
+                                <label for="name" class="form__label analytic__title2 text">CVV</label>
+                                <input type="number" class="form__input" id="name" placeholder="Number" required="" />
+                            </div>
+                        </div>
+                        <hr class="divider">
+
+                        <div class="relative vertical vertical--small analytic__part2 fieldset">
+                            {{!-- choose section--}}
+                            <div class=" relative click">
+                                <div class="analytic__title2 text">Coountry </div>
+                                <div class="field field--select ">
+                                    <span class="text text--gray text--bold form__label form__input">Choose...</span>
+                                </div>
+                                <select class="field__select form__input" name="" id="">
+                                    <option value="Cucumber">Canada</option>
+                                    <option value="Mooncake">Green</option>
+                                    <option value="Raccoon">Raccoon city</option>
+                                    <option value="Humster">Norven</option>
+                                    <option value="Wombat">Spain</option>
+                                </select>
+                            </div>
+                            <div class=" relative click">
+                                <div class="analytic__title2 text">State </div>
+                                <div class="field field--select">
+                                    <span class="text text--gray text--bold form__label form__input">Choose...</span>
+                                </div>
+                                <select class="field__select form__input" name="" id="">
+                                    <option value="Cucumber">Cucumber</option>
+                                    <option value="Mooncake">Mooncake</option>
+                                    <option value="Raccoon">Raccoon</option>
+                                    <option value="Humster">Humster</option>
+                                    <option value="Wombat">Wombat</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <hr class="divider">
+                        <div class="analytic2 vertical--big">
+                            <button class="button__last" role="button">
+                                <span class="analytic__title text text--light">Continue to checkout</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+
+
             </div>
         </main>
 
